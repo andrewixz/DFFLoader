@@ -1,0 +1,17 @@
+{
+  "name": "threejs-dff-loader",
+  "version": "0.0.1",
+  "author": "andrewixz",
+  "description": "RenderWare binary stream file loader for three.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  }
+}
